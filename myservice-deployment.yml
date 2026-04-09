@@ -13,7 +13,7 @@ spec:
         app: myservice
     spec:
       containers:
-        - image: efrei/myservice:1
+        - image: yanisglg95/serviceyanis:1
           imagePullPolicy: IfNotPresent
-          name: myservice
+          name: serviceyanis
       restartPolicy: Always
